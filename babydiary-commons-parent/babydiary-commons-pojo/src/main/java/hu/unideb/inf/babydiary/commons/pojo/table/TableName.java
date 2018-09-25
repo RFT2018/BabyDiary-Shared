@@ -14,4 +14,6 @@ public class TableName {
 
     public static final String TABLE_NAME_ALBUM = "album";
 
+    public static final String TABLE_NAME_CHILD_HAS_FUNFACT = "child_has_funfact";
+
 }

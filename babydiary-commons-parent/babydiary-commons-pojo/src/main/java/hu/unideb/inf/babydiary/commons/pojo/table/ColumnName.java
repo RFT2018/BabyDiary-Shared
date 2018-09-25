@@ -22,6 +22,9 @@ public class ColumnName {
         public static final String COLUMN_NAME_USER_LASTNAME = "user_lastname";
 
         public static final String COLUMN_NAME_USER_SEX = "user_sex";
+
+        public static final String COLUMN_NAME_USER_ROLE = "user_role";
+
     }
 
     public static final class FamilyColumName {
@@ -83,5 +86,12 @@ public class ColumnName {
         public static final String COLUMN_NAME_SIZE = "size";
 
         public static final String COLUMN_NAME_DATE = "date";
+    }
+
+    @NoArgsConstructor(access = AccessLevel.PRIVATE)
+    public static final class ReferencedColumName{
+
+        public static final String REFERENCED_COLUM_NAME_ID = "id";
+
     }
 }
