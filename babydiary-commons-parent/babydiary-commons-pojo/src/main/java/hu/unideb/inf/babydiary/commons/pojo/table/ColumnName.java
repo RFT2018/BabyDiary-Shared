@@ -21,8 +21,6 @@ public class ColumnName {
 
         public static final String COLUMN_NAME_USER_LASTNAME = "user_lastname";
 
-        public static final String COLUMN_NAME_USER_SEX = "user_sex";
-
         public static final String COLUMN_NAME_USER_ROLE = "user_role";
 
     }
@@ -47,8 +45,6 @@ public class ColumnName {
         public static final String COLUMN_NAME_CHILD_FIRSTNAME = "child_firstname";
 
         public static final String COLUMN_NAME_CHILD_LASTNAME = "child_lastname";
-
-        public static final String COLUMN_NAME_CHILD_SEX = "child_sex";
     }
 
     public static final class FunfactColumName {
@@ -86,6 +82,12 @@ public class ColumnName {
         public static final String COLUMN_NAME_SIZE = "size";
 
         public static final String COLUMN_NAME_DATE = "date";
+    }
+
+    public static final class SexColomnName{
+
+        public static final String COLUMN_NAME_SEX = "sex";
+
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
