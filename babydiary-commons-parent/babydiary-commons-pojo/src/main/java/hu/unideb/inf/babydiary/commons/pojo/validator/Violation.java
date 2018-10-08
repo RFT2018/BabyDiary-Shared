@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 public class Violation implements Serializable {
 
-    private static final long serialVersionUID = 80518929686086762L;
-
     private String field;
 
     private String validationMessage;
