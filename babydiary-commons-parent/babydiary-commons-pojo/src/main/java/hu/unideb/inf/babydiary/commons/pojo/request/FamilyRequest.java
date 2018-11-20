@@ -16,4 +16,5 @@ public class FamilyRequest {
     private List<Long> usersIds;
     private List<Long> childrenIds;
     private List<Long> wishlistIds;
+    private List<Long> appointmentIds;
 }
