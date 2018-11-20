@@ -1,27 +1,36 @@
 package hu.unideb.inf.babydiary.commons.pojo.request;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import hu.unideb.inf.babydiary.commons.pojo.enumeration.Sex;
 import hu.unideb.inf.babydiary.commons.pojo.enumeration.UserRole;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class RegistrationRequest implements Serializable {
 
-    private String username;
+    public String username;
 
-    private String email;
+    public String email;
 
-    private String password;
+    public String password;
 
-    private String passwordConfirm;
+    @JsonIgnore
+    public String passwordConfirm;
 
-    private String firstName;
+    public String firstName;
 
-    private String lastName;
+    public String lastName;
 
-    private String rememberToken;
+    public Sex sex;
 
-    private LocalDate createdDate;
-
-    private UserRole userRole;
+    public UserRole userRole;
 }

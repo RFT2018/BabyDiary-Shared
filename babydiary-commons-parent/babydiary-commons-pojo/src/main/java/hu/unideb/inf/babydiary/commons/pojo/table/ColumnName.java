@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ColumnName {
 
-    public static final class UserColumName {
+    public static final class UserColumnName {
 
         public static final String COLUMN_NAME_USER_ID = "user_id";
 
@@ -25,12 +25,14 @@ public class ColumnName {
 
     }
 
-    public static final class FamilyColumName {
+    public static final class FamilyColumnName {
+
+        public static final String COLUMN_NAME_FAMILY_ID = "family_id";
 
         public static final String COLUMN_NAME_FAMILYNAME = "familyname";
     }
 
-    public static final class ChildColumName {
+    public static final class ChildColumnName {
 
         public static final String COLUMN_NAME_CHILD_ID = "child_id";
 
@@ -47,7 +49,7 @@ public class ColumnName {
         public static final String COLUMN_NAME_CHILD_LASTNAME = "child_lastname";
     }
 
-    public static final class FunfactColumName {
+    public static final class FunfactColumnName {
 
         public static final String COLUMN_NAME_FUNFACT_ID = "funfact_id";
 
@@ -62,7 +64,7 @@ public class ColumnName {
         public static final String COLUMN_NAME_FOOD = "food";
     }
 
-    public static final class WishListColumName {
+    public static final class WishListColumnName {
 
         public static final String COLUMN_NAME_WISHLIST_ID = "wishlist_id";
 
@@ -71,7 +73,7 @@ public class ColumnName {
         public static final String COLUMN_NAME_PRICE = "price";
     }
 
-    public static final class AlbumColumName {
+    public static final class AlbumColumnName {
 
         public static final String COLUMN_NAME_ALBUM_ID = "album_id";
 
@@ -84,16 +86,33 @@ public class ColumnName {
         public static final String COLUMN_NAME_DATE = "date";
     }
 
-    public static final class SexColomnName{
+    public static final class AppointmentColumnName {
+
+        public static final String COLUMN_NAME_APPOINTMENT_ID = "appointment_id";
+
+        public static final String COLUMN_NAME_ADDRESS = "address";
+
+        public static final String COLUMN_NAME_LOCATION = "location";
+
+        public static final String COLUMN_NAME_DESCRIPTION = "description";
+
+        public static final String COLUMN_NAME_PRIO = "prio";
+
+        public static final String COLUMN_NAME_DATE = "date";
+
+        public static final String COLUMN_NAME_TIME = "time";
+    }
+
+    public static final class SexColumnName{
 
         public static final String COLUMN_NAME_SEX = "sex";
 
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
-    public static final class ReferencedColumName{
+    public static final class ReferencedColumnName{
 
-        public static final String REFERENCED_COLUM_NAME_ID = "id";
+        public static final String REFERENCED_COLUMN_NAME_ID = "id";
 
     }
 }
