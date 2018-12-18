@@ -22,8 +22,8 @@ public class AppointmentRequest {
 
     private int prio;
 
-    private LocalDate date;
+    private Long date;
 
-    private LocalDateTime time;
+    private Long time;
 
 }
